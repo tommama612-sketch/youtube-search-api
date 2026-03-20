@@ -2,7 +2,7 @@
   "version": 2,
   "functions": {
     "api/yts.js": {
-      "maxDuration": 10
+      "maxDuration": 30
     }
   },
   "routes": [
@@ -12,10 +12,6 @@
     },
     {
       "src": "/yts",
-      "dest": "/api/yts.js"
-    },
-    {
-      "src": "/youtube-search",
       "dest": "/api/yts.js"
     }
   ]
