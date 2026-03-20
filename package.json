@@ -1,0 +1,16 @@
+{
+  "name": "youtube-search-api",
+  "version": "1.0.0",
+  "description": "YouTube Search API - Search videos and channels on YouTube",
+  "main": "api/yts.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel deploy --prod"
+  },
+  "engines": {
+    "node": "24.x"
+  },
+  "keywords": ["youtube", "search", "video", "channel", "api", "tech-master"],
+  "author": "Tech Master",
+  "license": "MIT"
+}
